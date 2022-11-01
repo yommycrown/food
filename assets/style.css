@@ -1,0 +1,286 @@
+.nav-link{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navbar{
+    overflow: hidden;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+}
+
+#navbarNav{
+
+
+    justify-content: flex-end;
+    font-size: 17px;
+}
+
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+
+
+ li:hover{
+     display: inline;
+    
+     cursor: pointer;
+ 
+     background-color: rgb(255, 255, 255);
+     
+ }
+  /*End of styles of navbar*/
+
+
+
+      /*This styles the top*/
+ .top{
+     background-color:rgb(95, 196, 218, .7);
+     height: 15rem;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.873);
+     margin-top: 1rem;
+     padding-top: 2rem;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-style:bold;
+
+     margin-top: 3em;
+
+ }
+
+
+
+
+ #more{
+     margin-top: 3rem;
+     background-color: rgb(95, 196, 218);
+     color: white;
+     border-radius: 3em;
+     font-size: bold;
+     padding: 1em;
+     font-size: 14px;
+
+
+
+
+ }
+
+ #more:hover{
+     margin-top: 3rem;
+     background-color: rgb(254, 255, 254);
+     color: black;
+     border-radius: 5em;
+    
+     
+ }
+
+  /*End of the  styles the the top*/
+
+  /*This styles the gallery*/
+#gallery{
+ background-color:rgb(249, 251, 252);
+ color: white;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap; 
+ justify-content: center;
+ margin-top: 3px;
+
+}
+
+h4{
+color: white;
+}
+
+h6{
+color: rgb(255, 254, 254);
+}
+h3{
+color: rgb(255, 254, 254);
+}
+
+
+
+.img{
+height: 50%;
+width: 100%;
+transition: all 1s;
+}
+
+.img:hover{
+transform: scale(1.1);
+}
+
+
+
+/*end of styles the gallery*/
+
+/*This styles the Details*/
+
+.profile{
+height: 20rem;   
+width: 25rem;
+border-radius: 10px;
+padding-bottom: 20px;
+margin-top: 20px;
+
+}
+#right{
+    color: black;
+}
+
+.facts{
+    background-color:rgb(95, 196, 218, .7);
+    border-radius: 30px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Geneva';
+    padding-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: black;
+}
+
+#Details{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 30em;
+margin-bottom: 20px;
+padding-top: 1rem;
+margin-top: 1rem;
+text-align: center;
+color: rgb(20, 20, 20);
+font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+z-index: 1;
+
+}
+
+
+
+body{
+
+background-color:white;
+margin: 0px;
+
+}
+
+
+
+
+
+/*This ends styles the details*/
+
+
+
+
+
+/*This styles the contact*/
+
+#Contact{
+   
+text-align: center;
+background-color:rgb(41, 48, 49);
+padding-top: 2rem;
+color: rgb(22, 204, 204);
+display: inline;
+margin-top: 8rem;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*This end the styles of CONTACT*/
+
+/*This styles the LOGO*/
+
+
+
+
+/*This ENDS THE styles OF THE LOGO*/
+
+
+/*This styles the PRICE*/
+.price{
+display: none;
+}
+
+.price2{
+display: none;
+}
+
+.price3{
+display: none;
+}
+.price4{
+display: none;
+}
+
+
+
+/*Middle*/
+
+
+#Middle{
+background-color:rgb(8, 8, 8, .7);
+opacity: 3px;
+color: white;
+align-items: center;
+transition: all 1s;
+padding-top: 20px;
+margin-top: 35px;
+}
+
+#Middle:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*toure*/
+#Toure{
+    color: rgb(5, 170, 167);
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+
+/*toure*/
+#Environ{
+    color: rgb(22, 22, 22);
+    text-align: left;
+    margin-top: 35px;
+    padding-top: 20px;
+}
+
+
+
+.news{
+    text-align: center;
+    color: rgb(7, 7, 7, .6);
+    padding-top: 20px;
+}
+
+
+#News{
+    padding-top: 20px;
+}
+/*This ENDS styles OF the PRICE*/
+
+
+footer{
+text-align: center;
+background-color: grey;
+}
+@media(min-width: 992px){
+
+
+
+}
