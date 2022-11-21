@@ -1,6 +1,18 @@
 
 
 
+
+
+img{
+    transition: all 1s;
+}  
+
+
+img:hover{
+    transform: scale(1.1);
+}  
+
+
 body{
     font-family:"Arial", 'Helvetica', 'sans-serif';
     margin: 0;
@@ -186,6 +198,27 @@ input{
 
 
 }
+
+
+
+
+#order p{
+    animation-duration: 7s;
+    animation-name: slideIn;
+}
+
+
+@keyframes slideIn {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+     
 
 input:hover{
     background-color: #2068f0;
